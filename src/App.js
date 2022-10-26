@@ -58,20 +58,20 @@ function App() {
         <Router>
           <Header CartItem={CartItem} />
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/the-treasure-chest">
               <Pages
                 productItems={productItems}
                 addToCart={addToCart}
                 shopItems={shopItems}
               />
             </Route>
-            <Route path="/login">
+            <Route path="/the-treasure-chest/login">
               <Login />
             </Route>
-            <Route path="/register">
+            <Route path="/the-treasure-chest/register">
               <Register />
             </Route>
-            <ProtectedRoute path="/cart" exact>
+            <ProtectedRoute path="/the-treasure-chest/cart" exact>
               <Cart
                 CartItem={CartItem}
                 addToCart={addToCart}
