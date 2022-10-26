@@ -14,7 +14,7 @@ function ProtectedRoute({ children, ...rest }) {
         ) : (
           <Redirect
             to={{
-              pathname: "/login",
+              pathname: "/the-treasure-chest/login",
               state: { from: location },
             }}
           />
