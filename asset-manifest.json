@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/the-treasure-chest/static/css/main.b27c7989.css",
-    "main.js": "/the-treasure-chest/static/js/main.863b5dd6.js",
+    "main.js": "/the-treasure-chest/static/js/main.444984c4.js",
     "static/media/slick.svg": "/the-treasure-chest/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/the-treasure-chest/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/the-treasure-chest/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/the-treasure-chest/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/the-treasure-chest/index.html",
     "main.b27c7989.css.map": "/the-treasure-chest/static/css/main.b27c7989.css.map",
-    "main.863b5dd6.js.map": "/the-treasure-chest/static/js/main.863b5dd6.js.map"
+    "main.444984c4.js.map": "/the-treasure-chest/static/js/main.444984c4.js.map"
   },
   "entrypoints": [
     "static/css/main.b27c7989.css",
-    "static/js/main.863b5dd6.js"
+    "static/js/main.444984c4.js"
   ]
 }
