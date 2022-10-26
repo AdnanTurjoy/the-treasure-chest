@@ -17,7 +17,7 @@ const Search = ({ CartItem }) => {
           <div className="logo width cursor-pointer">
             <Link
               className=" text-[#0f3460] text-4xl tracking-wider font-semibold font"
-              to="/"
+              to="/the-treasure-chest"
             >
               The Treasure Chest
             </Link>
@@ -32,7 +32,7 @@ const Search = ({ CartItem }) => {
           <div className="icon f_flex width">
             <i className="fa fa-user icon-circle"></i>
             <div className="cart">
-              <Link to="/cart">
+              <Link to="/the-treasure-chest/cart">
                 <i className="fa fa-shopping-bag icon-circle "></i>
                 <span className="bg-[#0f3460]">
                   {CartItem.length === 0 ? "" : CartItem.length}
@@ -43,12 +43,12 @@ const Search = ({ CartItem }) => {
           {!user && (
             <>
               <div className="ml-3 inline-block text-sm px-4 py-2 mr-3 leading-none border rounded font-bold text-[#0f3460] border-black hover:bg-[#0f3460] hover:text-white mt-4 lg:mt-0">
-                <Link to="/login">
+                <Link to="/the-treasure-chest/login">
                   <button>Login</button>
                 </Link>
               </div>
               <div className="ml-3 inline-block text-sm px-4 py-2 mr-3 leading-none border rounded font-bold text-[#0f3460] border-black hover:bg-[#0f3460] hover:text-white mt-4 lg:mt-0">
-                <Link to="/register">
+                <Link to="/the-treasure-chest/register">
                   <button>Register</button>
                 </Link>
               </div>{" "}
@@ -57,7 +57,7 @@ const Search = ({ CartItem }) => {
           {user && (
             <>
               <div className="ml-3 inline-block text-sm px-4 py-2 mr-3 leading-none border rounded font-bold text-[#0f3460] border-black hover:bg-[#0f3460] hover:text-white mt-4 lg:mt-0">
-                <Link to="/" onClick={logout}>
+                <Link to="/the-treasure-chest" onClick={logout}>
                   <button>Logout</button>
                 </Link>
               </div>
